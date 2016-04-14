@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ECar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_activity_utils">ActivityUtils</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="title_activity_manage">ManageActivity</string>
+    <string name="title_activity_after_sale">AfterSaleActivity</string>
+    <string name="title_activity_maintain">MaintainActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_police">PoliceActivity</string>
+    <string name="title_activity_suoche_dialog">SuocheDialog</string>
+    <string name="title_activity_chongdian_dialog">ChongdianDialog</string>
+    <string name="title_activity_chesu_dialog">ChesuDialog</string>
+    <string name="title_activity_hei">HeiActivity</string>
+    <string name="title_activity_jiumian">JiumianActivity</string>
+    <string name="title_activity_jiuyuan">JiuyuanActivity</string>
+    <string name="title_activity_sis">SisActivity</string>
+    <string name="title_activity_weizhi">WeizhiActivity</string>
+    <string name="title_activity_guiji">GuijiActivity</string>
+    <string name="title_activity_xingcheng">XingchengActivity</string>
+    <string name="title_activity_chekuang">ChekuangActivity</string>
+    <string name="title_activity_mishu">MishuActivity</string>
+    <string name="title_activity_shezhi">ShezhiActivity</string>
+    <string name="title_activity_jibenxinxi">JibenxinxiActivity</string>
+    <string name="title_activity_xiugaimima">XiugaimimaActivity</string>
+    <string name="title_activity_gongnengshezhi">GongnengshezhiActivity</string>
+    <string name="title_activity_yijianfenxiang">YijianfenxiangActivity</string>
+    <string name="title_activity_guanyuwomen">GuanyuwomenActivity</string>
+    <string name="title_activity_tishiyinshezhi">TishiyinshezhiActivity</string>
+    <string name="title_activity_jiance">JianceActivity</string>
+
+</resources>

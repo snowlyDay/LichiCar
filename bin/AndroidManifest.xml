@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mycar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="RegisterActivity" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".ActivityUtils"
+            android:label="@string/title_activity_activity_utils" >
+        </activity>
+        <activity
+            android:name="com.example.first.ControlActivity"
+            android:label="@string/title_activity_control" >
+        </activity>
+        <activity
+            android:name="com.example.first.ManageActivity"
+            android:label="@string/title_activity_manage" >
+        </activity>
+        <activity
+            android:name="com.example.first.AfterSaleActivity"
+            android:label="@string/title_activity_after_sale" >
+        </activity>
+        <activity
+            android:name="com.example.first.MaintainActivity"
+            android:label="@string/title_activity_maintain" >
+        </activity>
+        <activity
+            android:name="com.example.first.MessageActivity"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name="com.example.first.PoliceActivity"
+            android:label="@string/title_activity_police" >
+        </activity>
+        <activity
+            android:name="com.example.Dialog.SuocheDialog"
+            android:label="@string/title_activity_suoche_dialog"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.Dialog.ChongdianDialog"
+            android:label="@string/title_activity_chongdian_dialog" >
+        </activity>
+        <activity
+            android:name="com.example.Dialog.ChesuDialog"
+            android:label="@string/title_activity_chesu_dialog"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".HeiActivity"
+            android:label="@string/title_activity_hei" >
+        </activity>
+        <activity
+            android:name="com.example.second.JiumianActivity"
+            android:label="@string/title_activity_jiumian" >
+        </activity>
+        <activity
+            android:name="com.example.second.JiuyuanActivity"
+            android:label="@string/title_activity_jiuyuan" >
+        </activity>
+        <activity
+            android:name="com.example.second.SisActivity"
+            android:label="@string/title_activity_sis" >
+        </activity>
+        <activity
+            android:name="com.example.second.WeizhiActivity"
+            android:label="@string/title_activity_weizhi" >
+        </activity>
+        <activity
+            android:name="com.example.second.GuijiActivity"
+            android:label="@string/title_activity_guiji" >
+        </activity>
+        <activity
+            android:name="com.example.second.XingchengActivity"
+            android:label="@string/title_activity_xingcheng" >
+        </activity>
+        <activity
+            android:name="com.example.second.ChekuangActivity"
+            android:label="@string/title_activity_chekuang" >
+        </activity>
+        <activity
+            android:name="com.example.second.MishuActivity"
+            android:label="@string/title_activity_mishu" >
+        </activity>
+        <activity
+            android:name=".ShezhiActivity"
+            android:label="@string/title_activity_shezhi" >
+        </activity>
+        <activity
+            android:name="com.example.shezhi.JibenxinxiActivity"
+            android:label="@string/title_activity_jibenxinxi" >
+        </activity>
+        <activity
+            android:name="com.example.shezhi.GongnengshezhiActivity"
+            android:label="@string/title_activity_gongnengshezhi" >
+        </activity>
+        <activity
+            android:name="com.example.shezhi.YijianfenxiangActivity"
+            android:label="@string/title_activity_yijianfenxiang" >
+        </activity>
+        <activity
+            android:name="com.example.shezhi.XiugaimimaActivity"
+            android:label="@string/title_activity_yijianfenxiang" >
+        </activity>
+        <activity
+            android:name="com.example.shezhi.GuanyuwomenActivity"
+            android:label="@string/title_activity_guanyuwomen" >
+        </activity>
+        <activity
+            android:name="com.example.shezhi.TishiyinshezhiActivity"
+            android:label="@string/title_activity_tishiyinshezhi" >
+        </activity>
+        <activity
+            android:name=".JianceActivity"
+            android:label="@string/title_activity_jiance" >
+        </activity>
+    </application>
+
+</manifest>
